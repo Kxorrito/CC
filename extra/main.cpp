@@ -4,14 +4,14 @@ using namespace std;
 
 int main()
 {
-unsigned long int number;
- cout<<"enter a number:";
- cin>>number;
+unsigned long int num;
+ cout<<"numero:";
+ cin>>num;
 
- cout<<"the factorial of"<<number<<"is";
- int accumulator=1;
- for(; number>0; accumulator *= number--);
- cout<<accumulator<<".\n";
+ cout<<"el factorial"<<num<<"es";
+ int acumula=1;
+ for(; num>0; acumula *= num--);
+ cout<<acumula<<".\n";
 
  return 0;
 }
